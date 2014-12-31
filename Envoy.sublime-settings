@@ -1,0 +1,22 @@
+{
+	"commands": [
+
+		{"command" : "hitech-web/::theme-publish"},
+		{"command": "hitech-web/::reset-cache"},
+		{"command" : "hitech-web/::reset-config-install"},
+		{"command" : "hitech-web/::reset-config-app"},
+		{"command" : "hitech-web/::reset-database"},
+		{"command" : "hitech-web/::composer-dump"},
+		{"command" : "hitech-web/::composer-install"},
+		{"command" : "hitech-web/::composer-update"},
+		{"command" : "hitech-web/::platform-install"},
+		{"command" : "hitech-web/::firework-seed"},
+		{"command" : "hitech-web/::update-repo"},
+		{"command" : "hitech-web/::tail"},
+		{"command" : "hitech-web/::update"},
+		{"command" : "hitech-web/::install"},
+		{"command" : "hitech-web/::reinstall-db"},
+		{"command" : "hitech-web/::reinstall"}
+	],
+	"envoy_path": "/usr/local/bin/envoy"
+}
